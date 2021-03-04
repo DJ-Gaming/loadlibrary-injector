@@ -18,8 +18,8 @@ int main()
 	}
 
 	inject(Pid, dll);
-	WriteProcessMemory(Proc, ntOpenFile, restoreBytes, 0, NULL);
-	std::cout << "Successfully Injected " << dll << "!";
+	std::cout << "Successfully Injected " << dll <<"!";
 	Sleep(3000);
+	WriteProcessMemory(Proc, ntOpenFile, restoreBytes, 5, NULL);
 	exit(0);
 }
