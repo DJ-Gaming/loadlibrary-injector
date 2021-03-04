@@ -1,3 +1,3 @@
 # loadlibrary-injector
 
-Load library injector made for CSGO
+Loadlibrary injector made for CSGO
